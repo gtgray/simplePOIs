@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">simplePOIs</string>
+
+    <string name="maps_key" translatable="false" templateMergeStrategy="preserve">
+        AIzaSyB_2OINVxkTaID4Pzz9FEoAwLGtFwX3q7g
+    </string>
+
+    <string name="gpservices_error_title">Google Play Services Error</string>
+    <string name="gpservices_error_desc">Google Play Services are missing from your phone.\nSimplePOIs can\u0027t run without Google Play Services.\nPlease, install fresh version and properly setup it!</string>
+    <string name="close">Close</string>
+
+    <string name="no_place_picked">No place picked</string>
+    <string name="try_again">Try again</string>
+    <string name="pick_other">Pick other</string>
+
+    <string name="rating">Rating</string>
+    <string name="address">Address:</string>
+    <string name="phone">Phone:</string>
+    <string name="web_site">Web:</string>
+
+</resources>

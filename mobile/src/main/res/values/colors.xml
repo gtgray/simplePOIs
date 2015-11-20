@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="clr_transparent">#00000000</color>
+    <color name="clr_black">#ff000000</color>
+    <color name="clr_black_15">#26000000</color>
+    <color name="clr_gray">#ffd4d4d4</color>
+    <color name="clr_white">#ffffffff</color>
+    <color name="clr_green_700">#ff388e3c</color>
+    <color name="clr_green_500">#ff4caf50</color>
+
+    <color name="clr_accent">@color/clr_green_700</color>
+    <!-- named to fix non-colorification of PlacePicker -->
+    <color name="primary">@color/clr_green_500</color>
+    <color name="primary_dark">@color/clr_green_700</color>
+
+    <color name="clr_shadow_start">#40000000</color>
+
+    <color name="clr_btn_normal">@color/clr_transparent</color>
+    <color name="clr_btn_pressed">@color/clr_black_15</color>
+
+</resources>

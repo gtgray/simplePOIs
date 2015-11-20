@@ -1,0 +1,115 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vg_place_data"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="32dp"
+    >
+
+    <TextView
+        android:id="@+id/tv_place_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_place_coords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_place_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/clr_black_15"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/address"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_place_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/address"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/phone"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_place_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/phone"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/web_site"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_place_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/web_site"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:id="@+id/btn_pick_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/pick_other"
+        android:textColor="@color/clr_black"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/slc_btn_default"
+        />
+
+</LinearLayout>
